@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>project2</title>
+</head>
+<body>
+
+   <div class="header__container">
+<h2 class="heading">Frontend Practice</h2>
+<ul class="li__names">
+        <li>Home</li>
+        <li>Project</li>
+        <li>FAQ</li>
+    </ul>
+    </div>
+
+    <section class="entire-section">
+
+    <div class="main__container">
+    <h1 class="abstract__header">Abstract</h1>
+        <h3 class="help-page">Help page</h3>
+        <ul class="icons">
+            <li>🌐View Live</li>
+            <li>📷Free Photo Assets</li>
+            <li>⭐Open Source Icons</li>
+        </ul>
+    
+</div>
+   
+<section class="container-section">
+    <div class="heading1">
+        <ul class="ul-list1">
+            <h3 class="ul-heading">Recreate this to learn</h3>
+            <li>Minimal layout</li>
+            <li>Search inputs</li>
+            <li>Buttons</li>
+            <li>Multi-column footer</li>
+            <li>and more</li>
+        </ul>
+    </div>
+
+    <div class="heading2">
+        <h3 class="ul-heading">Color Palette</h3>
+        <ul class="ul-list2">
+            <li>🔵#4C5FD5</li>
+            <li>⚪#dadbf1</li>
+            <li>⚫#000000</li>
+            <li>⚪#fff</li>
+            
+        </ul>
+    </div>
+
+        <div class="heading3">
+            <h3 class="ul-heading">Resources></h3>
+        <ul class="ul-list3">
+            <li>HTML search input</li>
+            <li>A Complete Guide to</li>
+            <li>Flexbox</li>
+            <li>Creating a button</li>
+            <li>Multi-Level Sticky Footer</li>
+        </ul>
+    </div>
+
+
+
+</section>
+<section class="Section-section">
+    <div class="box__container">
+        <h2 class="box-header">Up for a challenge?</h2>
+    <h4 class="box-subheader">Make sure pressing"Enter" works with the search field.</h4>
+    </div>
+    
+     <div class="box__container1">
+        <h2 class="box-header">Too easy</h2>
+    <h4 class="box-subheader">Is it responsive on mobile? Try adding the hamburger menu, also.</h4>
+   </div>
+
+    <div class="box__container2">
+        <h2 class="box-header1">Too hard</h2>
+        <h5 class="ok-text">That's ok!</h5>
+    <h4 class="box-subheader"><b>View other projects</b></h4>
+    
+   </div>
+
+
+<h2 class="reference__heading">Reference Image</h2>
+<section class="large-section">
+    
+    <div class="info">
+        <h6 class="help-info">Abstract | Help Center </h6>
+        <div>
+            <button class="submit-btn">Submit a request</button>
+        <button class="Sign-in__btn">Sign In</button>
+        
+
+        <div class="ask-section">
+            <h1 class="query">How can we help?</h1>
+            <input type="text" id="search" placeholder="Search">
+
+        </div>
+
+         </div>
+   
+</div>
+
+</section>
+</section>
+</section>
+
+
+
+    <script src="js/index.js"></script>
+</body>
+</html>
+
+<!-- import React,{ useState} from "react";
+
+export default function Counter() {
+    const [count,setCount] = useState(0);
+
+    return (
+        <div>
+            <p>Count: {count}</p>
+            <button onClick={()  => setCount(count +1)}>Increase</button>
+        </div>
+    );
+} -->
+
+<!-- import React,{useState} from "react";
+
+export default function Counter()  {
+    const [count,setCount] = useState(0);
+
+    return (
+        <div>
+            <p>Count: {count}</p>
+            <button onClick={()  => setCount(count +1)}>Increase</button>
+        </div>
+    );
+} -->
+<!-- import React, { useState } from "react";
+
+export default function ToggleText() {
+  const [isVisible, setIsVisible] = useState(false); // start hidden
+
+  return (
+    <div>
+      {isVisible && <p>Hello, React!</p>} {/* show text only if true */}
+      <button onClick={() => setIsVisible(!isVisible)}>
+        {isVisible ? "Hide" : "Show"}
+      </button>
+    </div>
+  );
+} -->
+
+import React, {useState} from "react";
+
+function NameInput()  {
+    const [input, setInput] = useState("");
+
+    return (
+        <div>
+            {input && <p>Hello,input!</p>}
+            {input ? "Hello,{name}" : ""};
+                </div>
+    );
+
+}
+
+export default NameInput;

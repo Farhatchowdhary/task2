@@ -1,0 +1,38 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    width: 80vw;
+    height: 30vh;
+    border: 2px solid black;
+    top: 0;
+    left: 0;
+    margin: auto;
+}
+
+.del-btn {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.complete-btn {
+    background-color: green;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.del-btn:hover {
+    background-color: darkred;
+}
+
+.complete-btn:hover {
+    background-color: darkgreen;
+}
